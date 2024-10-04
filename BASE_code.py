@@ -2,7 +2,7 @@ import cv2
 
 carrega_algoritmo = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
 
-img = cv2.imread('Photos/img_group_03.jpg')
+img = cv2.imread('Fotos/img_group_03.jpg')
 
 img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
